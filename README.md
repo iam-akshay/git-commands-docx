@@ -1,2 +1,3 @@
-# git-commands-docx
-This repository consists of git command documentation.
+# Git Commands
+
+- Git common commands that can be usefull in developers life.
