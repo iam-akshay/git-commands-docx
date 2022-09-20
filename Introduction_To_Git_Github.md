@@ -89,6 +89,14 @@
 - `git remote -v` to see the remote configuration. With this we can see the url associated with the origin remote.
 - `git remote show origin` display more details about remote (**origin is the default name of remote**)
 
+### Git Stash
+- `git stash` to store uncommit changes for future use.
+- `git stash list` to see the list of uncommit changes.
+- `git stash save "message"` to save stash with a message.
+- `git stash pop stash@{stash index number}` to remove the stash from stash list.
+- `git stash show` to show the difference.
+- `git stash apply stash@{stash index number}` to apply the stash.
+
 ### Rebase
 - `git rebase <branch_name>` Move the current branch on top of the <specified_branch_name> branch
 - Rebasing instead of merging rewrites history and maintains linearity, making for cleaner code.
